@@ -39,7 +39,6 @@ Primary goals:
 - Prefer simple UI components (Streamlit)
 
 ## UI Demo Screenshot
-
-Add your current UI screenshot at:
+<img width="598" height="453" alt="Screenshot 2026-04-06 at 9 59 03 PM" src="https://github.com/user-attachments/assets/f983582a-5164-4db6-a841-bc996463e871" />
 
 - docs/assets/ui-demo.png
