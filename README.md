@@ -13,10 +13,9 @@ Primary goals:
 - Surface deadlines and urgency early
 - Provide a simple UI for demos and rapid iteration
 
-## Product Documentation
+## Epic
 
-- PRD: [docs/PRD.md](docs/PRD.md)
-- UI demo screenshot location: [docs/assets/README.md](docs/assets/README.md)
+Build a lightweight AI assistant that helps users reach inbox zero faster by converting unstructured inbound messages into structured, actionable outputs in one step.
 
 ## Features
 
@@ -25,20 +24,40 @@ Primary goals:
 - Detects deadlines
 - Assigns priority
 
-## Future Improvements
+## User Stories
 
-- Gmail integration
-- Slack bot
-- Auto-reply generator
-- Task export to Notion
+- As a busy professional, I want to paste a long email and get a concise summary so I can understand it quickly.
+- As a team lead, I want action items extracted clearly so I can delegate follow-ups without missing tasks.
+- As a project manager, I want deadlines highlighted so I can track time-sensitive work.
+- As an operations user, I want a simple priority signal so I can triage what to handle first.
 
-## Coding Guidelines
+## Demo
 
-- Keep functions small and readable
-- Use type hints
-- Prefer simple UI components (Streamlit)
+UI screen capture path:
 
 ## UI Demo Screenshot
 <img width="598" height="453" alt="Screenshot 2026-04-06 at 9 59 03 PM" src="https://github.com/user-attachments/assets/f983582a-5164-4db6-a841-bc996463e871" />
 
-- docs/assets/ui-demo.png
+- [docs/assets/ui-demo.png](docs/assets/ui-demo.png)
+
+Additional demo notes:
+
+- [docs/assets/README.md](docs/assets/README.md)
+
+## Product Documentation
+
+- PRD: [docs/PRD.md](docs/PRD.md)
+
+## Repository Layout
+
+This repository currently contains two separate Streamlit apps in separate folders:
+
+- inbox_zero_ai/: Inbox Zero AI
+- ai_workout_generator/: AI Workout Generator
+
+Each folder has its own app entrypoint and requirements file.
+
+## Run Apps
+
+- Inbox Zero AI: run from inbox_zero_ai/
+- AI Workout Generator: run from ai_workout_generator/
